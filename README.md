@@ -3,7 +3,6 @@ A small place to share unity projects with a remote team. And maker small fun ga
 
 Contributors:
 Theisen1337
-
 Madman
-JohnDoe
+
 

@@ -9,7 +9,7 @@ public class BuildingManager : MonoBehaviour
     [SerializeField] private BuildingtypeSO activeBuildingType;
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
+        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject() && activeBuildingType != null)
         {
             Vector3 mousePos = utilities.GetMouseWorldPosition();
             Instantiate(activeBuildingType.prefab, mousePos, Quaternion.identity);

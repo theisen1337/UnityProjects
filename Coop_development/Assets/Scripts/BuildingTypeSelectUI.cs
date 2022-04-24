@@ -37,12 +37,25 @@ public class BuildingTypeSelectUI : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            foreach (BuildingtypeSO buildingtypeSO in buildingButtonDictionary.Keys)
+            {
+                buildingButtonDictionary[buildingtypeSO].Find("background").GetComponent<Image>().color = new Color32(176, 120, 117, 255);
+            }
+
+            buildingManager.SetActiveBuildingType(null);
+        }
+    }
+
     private void UpdateSelectedVisual()
     {
          foreach (BuildingtypeSO buildingtypeSO in buildingButtonDictionary.Keys)
          {
             buildingButtonDictionary[buildingtypeSO].Find("background").GetComponent<Image>().color = new Color32(176, 120, 117, 255);
-        }
+         }
         
 
         BuildingtypeSO activeBuildingType = buildingManager.GetActiveBuildingType();

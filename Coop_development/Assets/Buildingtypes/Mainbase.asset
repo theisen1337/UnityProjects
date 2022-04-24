@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 810915673274951453, guid: ae89a94751d55ec44a592b546866e218, type: 3}
   Text: Mainbase
+  connectionRange: 10

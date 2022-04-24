@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 1897255538575844943, guid: 98cf26061017adf469adfc37eb7e8a2d, type: 3}
   Text: Empty Node
+  connectionRange: 10

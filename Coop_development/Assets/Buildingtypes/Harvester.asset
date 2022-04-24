@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 6685671153272908356, guid: 7bc6901ecb353584fb8de728eb2d95d1, type: 3}
   Text: Harvester
+  connectionRange: 5

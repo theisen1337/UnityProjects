@@ -94,6 +94,8 @@ GameObject:
   - component: {fileID: 6685671153272908357}
   - component: {fileID: 3962271166560026110}
   - component: {fileID: -252611735650841128}
+  - component: {fileID: -5356616823468091370}
+  - component: {fileID: -4713476651091670210}
   m_Layer: 0
   m_Name: Prefab_Harvester
   m_TagString: Untagged
@@ -205,3 +207,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08ec79ae70243064aa610a134f77c9b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-5356616823468091370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6685671153272908359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa10ded28def2f94c96b81b344655357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &-4713476651091670210
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6685671153272908359}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

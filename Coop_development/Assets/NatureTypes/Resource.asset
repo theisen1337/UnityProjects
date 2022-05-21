@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8308c619f050dfb4da96715b4ed612a3, type: 3}
-  m_Name: ResourceNode
+  m_Script: {fileID: 11500000, guid: 4b01213c604e3df418b7030b051c1389, type: 3}
+  m_Name: Resource
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6054374179601912878, guid: e8c2d177d71706b42ad16cca1b2f912a, type: 3}
+  prefab: {fileID: 0}
+  Text: Resource
+  connectedHarvesters: 0
+  resourceType: Resource

@@ -11,4 +11,9 @@ public static class utilities
         worldPosition.z = 0f;
         return worldPosition;
     }
+
+    static string GetObjectInArea()
+    {
+        
+    }
 }

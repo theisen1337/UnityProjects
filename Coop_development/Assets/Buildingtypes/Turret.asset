@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 4338544470224128055, guid: 83b923a6faab7f943a206b3a92860ae5, type: 3}
   Text: Turret
+  connectionRange: 5
